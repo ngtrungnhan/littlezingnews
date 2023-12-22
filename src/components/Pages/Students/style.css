@@ -1,0 +1,18 @@
+.students {
+  width: 900px;
+  margin: 30px auto;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+.search {
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+}
+
+.ant-notification {
+  z-index: 10000000000;
+}

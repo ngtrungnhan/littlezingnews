@@ -1,0 +1,99 @@
+.login-background {
+  background: #0190f3;
+  height: 100vh;
+}
+
+.login-container {
+  width: 350px;
+  height: 300px;
+  margin: auto;
+  border-radius: 40px 0px 40px 0px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.validUsername,
+.validPassword,
+.validSub {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.validUsername {
+  margin-top: -20px;
+}
+
+.validPassword {
+  margin-left: -132px;
+  margin-top: 10px;
+}
+.login-content {
+  padding: 10px;
+  margin: 30px 0px;
+}
+.login-content .img {
+  width: 250px;
+  text-align: center;
+  padding-left: 75px;
+}
+
+.text-login {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  padding-top: 10px;
+}
+
+.login-input {
+  width: 250px;
+  display: flex;
+  margin: 10px auto;
+  align-items: center;
+}
+
+.fix {
+  margin-right: 3px;
+}
+
+.login-input input {
+  border: 1px solid rgb(4, 117, 192);
+  outline: none;
+  width: 200px;
+  height: 30px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.btn-login {
+  text-align: center;
+  font-weight: bolder;
+  width: 30%;
+  margin: 10px 110px 0px;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background: #0190f3;
+  color: white;
+}
+
+.btn-login:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.custom-input-password {
+  position: relative;
+}
+
+.custom-input-password i {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  cursor: pointer;
+  color: #555;
+}

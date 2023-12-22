@@ -1,0 +1,65 @@
+.bookCustom img {
+  width: 448px;
+  height: 300px;
+}
+
+.bookHeader h1 {
+  margin: 10px 0px;
+}
+
+.bookHeader {
+  margin: 0 230px;
+  max-width: 1100px;
+}
+
+.contentBook {
+  margin: 30px 0px;
+}
+
+.bookCustom {
+  display: flex;
+  padding-right: 320px;
+}
+
+.bookCustom .cus {
+  width: 34%;
+  padding-left: 18px;
+}
+
+.cus {
+  color: #000;
+  font-size: 14px;
+}
+
+.bookCustom h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: Arial;
+  color: #000;
+}
+
+.bookCustom h3:hover {
+  color: #006ba0;
+}
+
+.bookCustom p {
+  line-height: 1.43;
+  font-family: Arial;
+  font-size: 14px;
+  color: #666;
+}
+
+.sectionContent {
+  display: flex;
+  padding-right: 320px;
+  margin-top: 15px;
+}
+
+.itemSection:nth-child(2) {
+  margin: 0 20px;
+}
+
+.sectionContent img {
+  width: 217px;
+  height: 145px;
+}
